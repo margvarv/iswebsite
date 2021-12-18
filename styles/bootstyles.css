@@ -1,0 +1,55 @@
+
+
+.footer{
+    left: 5px;
+    right: 5px;
+    bottom: 10px;
+    height: 60px;
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    background-color: rgba(180, 125, 171, 0.9);
+    position: fixed;
+}
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    background-color: rgba(180, 125, 171, 0.9);
+    text-transform: uppercase;
+    line-height: 1;
+    position: fixed;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.heading_upper{
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.heading_lower{
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.homebackground{
+    background-image: url('../images/france.JPG') ;
+    background-position: top left;
+    background-size: cover;
+    z-index: 1;
+}
+
+.main{
+    top: 114px;
+    bottom: 40px;
+    right: 114px;
+    left: 114px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
